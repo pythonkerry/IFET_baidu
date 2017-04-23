@@ -1,0 +1,40 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+#container {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	overflow: hidden;
+}
+#color1 {
+	height: 100%;
+	width: 100%;
+	background-color: darkgrey;
+}
+#color2 {
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+	border-radius: 50px;
+}
+#color3 {
+	height: 100px;
+	width: 100px;
+	background-color: yellow;
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+	border-radius: 50px;
+}
