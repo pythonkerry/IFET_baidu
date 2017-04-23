@@ -1,0 +1,419 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #666666;
+}
+#paper {
+	width: 892px;
+	height: 1264px;
+	padding: 61px 44px;
+	margin: 140px auto;
+	background-color: #ffffff;
+	position: relative;
+}
+
+#tag {
+	width: 110px;
+	height: 61px;
+	background-color: #cd0000;
+	position: absolute;
+	top: 0;
+	left: 44px;
+}
+#name {
+	font-family: "黑体";
+	font-size: 12px;
+	color: #ffffff;
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}
+#header_word {
+	font-family: "黑体";
+	font-size: 12px;
+	color: #d45d5c;
+	position: absolute;
+	top: 44px;
+	right: 44px;
+}
+#header_line {
+	width: 892px;
+	height: 2px;
+	background-color: #938e8c;
+	position: absolute;
+	top: 61px;
+	left: 44px;
+}
+#footer_line {
+	width: 892px;
+	height: 1px;
+	background-color: #938e8c;
+	position: absolute;
+	bottom: 61px;
+	left: 44px;
+}
+#footer_word {
+	font-family: "黑体";
+	font-size: 12px;
+	color: #d45d5c;
+	position: absolute;
+	bottom: 44px;
+	right: 44px;
+}
+
+#img1 {
+	width: 641px;
+	height: 301px;
+	background-image: url(../img/Penguins.jpg);
+	background-size: 641px 301px;
+	position: absolute;
+	top: 88px;
+	left: 44px;
+}
+#green1_1 {
+	width: 191px;
+	height: 301px;
+	background-color: green;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#red1_1 {
+	width: 191px;
+	height: 301px;
+	background-color: red;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#part2 {
+	width: 203px;
+	height: 301px;
+	position: absolute;
+	top: 88px;
+	right: 44px;
+}
+#red2_1 {
+	width: 203px;
+	height: 2px;
+	background-color: #cc8091;
+}
+#title2_1 {
+	font-size: 24px;
+	color: #000000;
+	font-family: "microsoft yahei";
+	text-decoration: underline;
+	line-height: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#title2_2 {
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";
+	line-height: 10px;
+	margin-top: 0;
+}
+#label2_1 {
+	font-size: 116px;
+	color: #75b86b;
+	font-family: "microsoft yahei";
+	font-style: oblique;
+	text-decoration: underline;
+	line-height: 116px;
+}
+#label2_2 {
+	font-size: 55px;
+	color: #cc8091;
+	font-family: "microsoft yahei";
+	line-height: 55px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#label2_3 {
+	font-size: 21px;
+	color: #cc8091;
+	font-family: "microsoft yahei";
+	position: absolute;
+	left: 85px;
+	bottom: 12px;
+}
+#label2_4 {
+	font-size: 12px;
+	color: #cc8091;
+	font-family: "microsoft yahei";
+	position: absolute;
+	left: 85px;
+	bottom: 0;
+}
+
+#part3 {
+	width: 641px;
+	height: 260px;
+	position: absolute;
+	top: 389px;
+	left: 44px;
+}
+#part3 article {
+	float: left;
+	margin-right: 30px;
+}
+#artc3_1 {
+	width: 220px;
+	height: 260px;
+}
+#artc3_2 {
+	width: 190px;
+	height: 260px;
+}
+#artc3_3 {
+	width: 140px;
+	height: 260px;
+}
+.title3 {
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	font-weight: bold;
+	text-decoration: underline;
+}
+#title3_1 {
+	color: #418c59;
+}
+#title3_2 {
+	color: #d2994f;
+}
+#title3_3 {
+	color: #cc7680;
+}
+#content3_1 {
+	font-size: 12px;
+	font-family: "宋体";
+	color: #767777;
+	line-height: 16px;
+}
+#content3_2,#content3_3,.ul3_pre {
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #231815;
+	line-height: 16px;
+	opacity: 0.7;
+}
+.ul3_last {
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	font-style: oblique;
+	color: #cd4a48;
+	line-height: 16px;
+	opacity: 0.7;
+}
+
+#part4 {
+	width: 415px;
+	height: 605px;
+	position: absolute;
+	left: 44px;
+	bottom: 105px;
+}
+#title4_1 {
+	font-size: 42px;
+	color: #11456b;
+	font-family: "黑体";
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#title4_1 span {
+	font-size: 72px;
+	color: #f5e327;
+	font-family: "黑体";
+	font-style: oblique;
+	font-weight: bold;
+}
+#title4_2 {
+	font-size: 33px;
+	color: #11456b;
+	font-family: "黑体";
+	font-weight: bold;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 130px;
+}
+#black4_1 {
+	width: 415px;
+	height: 2px;
+	background-color: #11456b;
+	position: absolute;
+	left: 0;
+	top: 180px;
+}
+#artcs3 {
+	width: 415px;
+	height: 438px;
+	position: absolute;
+	left: 0;
+	top: 182px;
+}
+.article4 {
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+	line-height: 16px;
+}
+#firstchar4_1 {
+	font-size: 70px;
+	color: #f5e327;
+	line-height: 70%;
+	font-family: "microsoft yahei";
+	float: left;
+}
+#img2 {
+	width: 150px;
+	height: 300px;
+	margin: 20px 0 20px 20px;
+}
+
+#img3 {
+	width: 458px;
+	height: 275px;
+	background-image: url(../img/Penguins.jpg);
+	background-size: 458px 275px;
+	position: absolute;
+	right: 44px;
+	bottom: 435px;
+}
+#gray5_1 {
+	width: 458px;
+	height: 61px;
+	background-color: gray;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#green5_1 {
+	width: 3px;
+	height: 44px;
+	background-color: #72b16a;
+	position: absolute;
+	left: 45px;
+	bottom: 10px;
+}
+#title5_1 {
+	font-family: "微软雅黑";
+	font-size: 26px;
+	color: #ffffff;
+	position: absolute;
+	left: 65px;
+	bottom: 15px;
+}
+#title5_2 {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-style: oblique;
+	word-spacing: 140%;
+	color: #72b16a;
+	position: absolute;
+	left: 175px;
+	bottom: 17px;
+}
+
+#part6 {
+	width: 459px;
+	height: 318px;
+	background-color: rgb(238,238,214);
+	position: absolute;
+	right: 44px;
+	bottom: 90px;
+}
+.pre_ul {
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	line-height: 20px;
+	text-align: left;
+}
+.last_ul {
+	font-size: 12px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	line-height: 20px;
+	font-style: italic;
+	text-align: right;
+}
+#red6_1 {
+	width: 260px;
+	height: 160px;
+	background-color: rgb(231,93,92);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#red6_1 span {
+	font-size: 110px;
+	color: #ffffff;
+	font-family: "microsoft yahei";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+#white6_1 {
+	width: 2px;
+	height: 86px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 70px;
+	top: 37px;
+}
+#title6_1 {
+	font-size: 21px;
+	color: #ffffff;
+	font-family: "黑体";
+	line-height: 24px;
+	font-style: oblique;
+	position: absolute;
+	top: 25px;
+	left: 80px;
+}
+#title6_2 {
+	font-size: 12px;
+	color: #ffffff;
+	font-family: "黑体";
+	line-height: 12px;
+	position: absolute;
+	left: 80px;
+	bottom: 25px;
+}
+#artc6_1 {
+	height: 160px;
+	width: 160px;
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: "黑体";
+	font-style: oblique;
+	line-height: 16px;
+	margin: 0;
+	position: absolute;
+	top: 158px;
+	right: 20px;
+}
+#pre_quot,#last_quot {
+	font-size: 72px;
+	color: #d45d5c;
+	font-family: "黑体";
+	font-style: none;
+}
+#pre_quot {
+	float: left;
+	line-height: 20%;
+}
+#last_quot {
+	float: right;
+	line-height: 80%;	
+}
+
